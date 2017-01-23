@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+//@property(strong, nonatomic) IBOutlet UIButton *button;
+
+@property (strong, nonatomic) IBOutlet UILabel *labelHelloWorld;
+- (IBAction)button:(id)sender;
+
 
 @end
 
