@@ -25,7 +25,7 @@
 }
 - (IBAction)press:(id)sender {
     NSLog(@"Here");
-    labelHelloWorld.text = [NSString stringWithFormat:@"Pressed"];
+    labelHelloWorld.text = [NSString stringWithFormat:@"Sagar"];
 }
 
 - (IBAction)button:(id)sender {
