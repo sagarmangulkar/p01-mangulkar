@@ -17,12 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello World...!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nox-En-9zK">
-                                <rect key="frame" x="180" y="191" width="129" height="40"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ubL-91-imh">
                                 <rect key="frame" x="221" y="325" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
@@ -30,8 +24,15 @@
                                     <action selector="press:" destination="BYZ-38-t0r" eventType="touchDown" id="SJa-4Q-WeR"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello World...!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nox-En-9zK">
+                                <rect key="frame" x="180" y="191" width="129" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.55850891156076887" blue="0.43600810233159892" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.65266675868666124" green="0.87776798505174103" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.92405140579536582" blue="0.24491160106247933" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="labelHelloWorld" destination="nox-En-9zK" id="KBk-Zv-DlT"/>
