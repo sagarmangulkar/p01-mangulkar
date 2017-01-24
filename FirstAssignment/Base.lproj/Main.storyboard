@@ -27,7 +27,6 @@
                                 <rect key="frame" x="221" y="325" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="Fvj-pW-TeV"/>
                                     <action selector="press:" destination="BYZ-38-t0r" eventType="touchDown" id="SJa-4Q-WeR"/>
                                 </connections>
                             </button>
